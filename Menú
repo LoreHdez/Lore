@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Hacemos tus ideas realidad</h1>
+
+<hr>
+<title>Barra de navegación</title>
+
+<style>
+	body{padding: 0px; font-family: Arial, Helvetica, sans-serif;}
+	#menu{
+	background-color: #00E0FF
+	}
+	#menu ul{
+		list-style:none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	#menu ul li{
+		display: inline-block;
+		padding: 5px;
+	}
+	#menu ul li a{
+		color: #004D4D;
+		display: block;
+		padding: 5px;
+		text-decoration: none;
+	}	
+	#menu ul li a:hover{
+	background-color:#00E0FF;
+	}
+</style>		
+<h4><form action="http://swimmers/search" method="get">
+    <label for="busqueda">Buscar</ label>
+    <input type="search" id="busqueda" name="q"/>
+    <input type="submit" value="Buscar"/>
+</h4>
+<div id="menu">
+		<ul>
+            <li><h2><a href="Nosotros.html">Productos</a></h2></li>
+			<li><h2><a href="productos.html">Experiencia</a></h2></li>
+			<li><h2><a href="contacto.html">Contacto</a></h2></li>
+			<li><h3><a href="compras.html">Compras</a></h3></li>
+		</ul>
+	</div>
+<hr>	
+</body>
+</html>
